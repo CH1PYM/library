@@ -1,0 +1,106 @@
+:root {
+  background-color: #F5EFE6;
+}
+* {
+  box-sizing: border-box;
+  
+}
+/*.card:nth-child(1n) {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px;
+    background-color: aqua;
+    border: 3px solid black;
+    
+
+}*/
+.gridCon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  gap: 30px;
+  /*justify-content: start;*/
+  align-content: space-between;
+  height: 80vh;
+}
+
+
+input[type="text"],input[type="number"], input[type="email"], input[type="url"], input[type="password"] {
+  background-color: #fff;
+  padding: 12px 10px 12px;
+  font-size: 30px;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 4px;
+}
+
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  max-width: 100%;
+  vertical-align: baseline;
+}
+.inputBook label {
+  font-size: 1.5em;
+}
+.inputBook {
+  background-color: #F5EFE6;
+  display: flex;
+  padding-left: 1em;
+  margin: 1em;
+  /*height: 100%;*/
+}
+.inpputSingle {
+  margin: 20px;
+}
+.inputBook button {
+  margin-left: 20px;
+}
+.submit {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 50px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+.mainCard {
+  width: 500px;
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: grid;
+  row-gap: 30px;
+  align-content: center;  
+  justify-content: center;
+  gap: 30px;
+  background-color: #F5EFE6;
+  border: black solid 3px;
+  margin: 40px;
+  
+}
+.button {
+  background-color: red;
+  margin-left: 300px;
+}
+.display {
+  
+}
